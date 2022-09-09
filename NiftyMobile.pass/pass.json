@@ -38,26 +38,16 @@
     "auxiliaryFields": [
       {
         "key": "owner",
-        "label": "OWNER",
-        "value": "@hobi"
+        "label": "STATUS",
+        "value": "Unclaimed - See Back of Pass"
       },
       {
         "key": "floor-price",
         "label": "FLOOR PRICE",
         "value": "$17,278.00"
-      },
-      {
-        "key": "contract-address",
-        "label": "CONTRACT",
-        "value": "0x89f6...b4fa"
       }
     ],
     "secondaryFields": [
-      {
-        "key": "artist-name",
-        "label": "ARTIST",
-        "value": "Reuben Wu"
-      },
       {
         "key": "release",
         "label": "RELEASE DATE",
@@ -68,14 +58,23 @@
     "backFields": [
       {
         "key": "view",
-        "label": "Claim NFT",
-        "attributedValue": "<a href='https://www.niftygateway.com/marketplace/item/0xc71561e12faf378b07eacd36b3d0eb0d13a5fb1c/1000100532'>View NFT</a>"
+        "label": "Status",
+        "attributedValue": "<a href='https://www.niftygateway.com/marketplace/item/0xc71561e12faf378b07eacd36b3d0eb0d13a5fb1c/1000100532'>Claim NFT</a>"
       },
-
       {
         "key": "view",
-        "label": "Sell",
-        "attributedValue": "<a href='https://www.niftygateway.com/'>List for Sale</a>"
+        "label": "Actions",
+        "attributedValue": "<a href='https://www.niftygateway.com/'>View NFT</a> • <a href='https://www.niftygateway.com/'>View Offers</a> • <a href='https://www.niftygateway.com/'>List for Sale</a>"
+      },
+      {
+        "key": "etherscan",
+        "label": "Contract Address",
+        "attributedValue": "<a href='https://etherscan.io/address/0xc71561e12faf378b07eacd36b3d0eb0d13a5fb1c'>0xc71561e1...3a5fb1c</a>"
+      },
+      {
+        "key": "website",
+        "label": "Website",
+        "attributedValue": "<a href='https://niftygateway.com'>niftygateway.com</a>"
       }
     ]
   }
