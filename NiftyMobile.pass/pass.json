@@ -1,0 +1,82 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.hobicom.niftytest",
+  "serialNumber": "E5982H-I6",
+  "teamIdentifier": "XLKF8BP497",
+  "webServiceURL": "https://niftygateway.com/",
+  "authenticationToken": "vxwxd7J8AlNNFPS8k0a0FfUFtq0ewzFdc",
+  "organizationName": "Nifty Gateway",
+  "description": "Nifty Gateway NFT",
+  "logoText": "Nifty Gateway",
+  "labelColor": "rgb(255, 255, 255)",
+  "foregroundColor": "rgb(255, 255, 255)",
+  "backgroundColor": "rgb(0, 0, 0)",
+  "barcodes": [
+    {
+      "message": "https://www.niftygateway.com/marketplace/item/0xc71561e12faf378b07eacd36b3d0eb0d13a5fb1c/1000100532",
+      "format": "PKBarcodeFormatQR",
+      "messageEncoding": "iso-8859-1"
+    }
+  ],
+  "eventTicket": {
+    "primaryFields": [
+      {
+        "textAlignment": "PKTextAlignmentLeft",
+        "key": "title",
+        "label": "Reuben Wu",
+        "value": "The Sentinel"
+      }
+    ],
+
+    "headerFields": [
+      {
+        "key": "token-id",
+        "label": "TOKEN ID",
+        "value": "1 of 1"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "owner",
+        "label": "OWNER",
+        "value": "@hobi"
+      },
+      {
+        "key": "floor-price",
+        "label": "FLOOR PRICE",
+        "value": "$17,278.00"
+      },
+      {
+        "key": "contract-address",
+        "label": "CONTRACT",
+        "value": "0x89f6...b4fa"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "artist-name",
+        "label": "ARTIST",
+        "value": "Reuben Wu"
+      },
+      {
+        "key": "release",
+        "label": "RELEASE DATE",
+        "value": "2022-02-22T10:00-05:00",
+        "dateStyle": "PKDateStyleMedium"
+      }
+    ],
+    "backFields": [
+      {
+        "key": "view",
+        "label": "Claim NFT",
+        "attributedValue": "<a href='https://www.niftygateway.com/marketplace/item/0xc71561e12faf378b07eacd36b3d0eb0d13a5fb1c/1000100532'>View NFT</a>"
+      },
+
+      {
+        "key": "view",
+        "label": "Sell",
+        "attributedValue": "<a href='https://www.niftygateway.com/'>List for Sale</a>"
+      }
+    ]
+  }
+}

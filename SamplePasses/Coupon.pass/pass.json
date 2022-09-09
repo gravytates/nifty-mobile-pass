@@ -1,0 +1,56 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.hobicom.niftytest",
+  "serialNumber": "E5982H-I4",
+  "teamIdentifier": "XLKF8BP497",
+  "webServiceURL": "https://niftygateway.com/",
+  "authenticationToken": "vxwxd7J8AlNNFPS8k0a0FfUFtq0ewzFdc",
+  "organizationName": "Nifty Gateway",
+  "description": "Nifty Gateway NFT",
+  "logoText": "Nifty Gateway",
+  "labelColor": "rgb(255, 255, 255)",
+  "foregroundColor": "rgb(255, 255, 255)",
+  "backgroundColor": "rgb(12, 23, 12)",
+  "generic": {
+    "primaryFields": [
+      {
+        "textAlignment": "PKTextAlignmentRight",
+        "key": "title",
+        "label": "Lambo",
+        "value": "Awkward Astronauts #532"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "release",
+        "label": "RELEASE DATE",
+        "value": "2022-04-20T10:00-05:00"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "address",
+        "label": "CONTRACT ADDRESS",
+        "value": "0xc71561e12faf378b07eacd36b3d0eb0d13a5fb1c"
+      },
+      {
+        "key": "token-id",
+        "label": "TOKEN ID",
+        "value": "532"
+      }
+    ],
+
+    "backFields": [
+      {
+        "key": "frequent-flier-number",
+        "label": "Frequent flier number",
+        "value": "1234-5678"
+      },
+      {
+        "key": "website",
+        "label": "Redeem",
+        "value": "http://www.niftygateway.com"
+      }
+    ]
+  }
+}
