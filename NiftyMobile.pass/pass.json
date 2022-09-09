@@ -3,7 +3,7 @@
   "passTypeIdentifier": "pass.com.hobicom.niftytest",
   "serialNumber": "E5982H-I6",
   "teamIdentifier": "XLKF8BP497",
-  "webServiceURL": "https://niftygateway.com/",
+  "webServiceURL": "https://qa100-nifty.service.aws-qa.sd.gem.link/",
   "authenticationToken": "vxwxd7J8AlNNFPS8k0a0FfUFtq0ewzFdc",
   "organizationName": "Nifty Gateway",
   "description": "Nifty Gateway NFT",
