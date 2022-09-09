@@ -47,9 +47,17 @@ const URL =
   "https://media.niftygateway.com/video/upload/v1657969658/AMatthew/CryptoCubes2022July18/FinalAssets/Reuben-Wu_The-Sentinel_zcfbaw.png";
 
 const run = () => {
-  const thumbnail2x = cloudinaryUrl(URL, "w_180,q_auto:good,f_png");
-  const thumbnail = cloudinaryUrl(URL, "w_90,q_auto:good,f_png");
-  const background = cloudinaryUrl(URL, "w_180,e_blur:1000,q_auto:good,f_png");
+  const url = process.argv.slice(2)[0] || URL;
+
+  const thumbnail2x = cloudinaryUrl(
+    url,
+    "c_fill,w_180,h_180,q_auto:good,f_png"
+  );
+  const thumbnail = cloudinaryUrl(url, "c_fill,w_90,h_90,q_auto:good,f_png");
+  const background = cloudinaryUrl(
+    url,
+    "c_fill,w_180,h_220,e_blur:1000,q_auto:good,f_png"
+  );
 
   download(thumbnail2x, "output/thumbnail@2x.png", () => {
     console.log("thumbnail@2x.png downloaded");
