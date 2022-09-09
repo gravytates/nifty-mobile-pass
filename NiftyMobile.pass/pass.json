@@ -31,8 +31,8 @@
     "headerFields": [
       {
         "key": "token-id",
-        "label": "TOKEN ID",
-        "value": "1 of 1"
+        "label": "EDITION",
+        "value": "1/200"
       }
     ],
     "auxiliaryFields": [
